@@ -20,8 +20,6 @@ To Implement Diffie Hellman Key Exchange Algorithm
 ## Program: 
 ```
 #include <stdio.h>
-
-
 long long int mod_exp(long long int base, long long int exp, long long int mod) {
     long long int result = 1;
     while (exp > 0) {
